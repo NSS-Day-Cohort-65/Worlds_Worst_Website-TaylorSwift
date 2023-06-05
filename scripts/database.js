@@ -26,5 +26,5 @@ const database = [
 ]
 
 export const getEventsDatabase = () => {
-    database.map (event => ({...event}))
+    return database.map(event => ({...event}))
 }
