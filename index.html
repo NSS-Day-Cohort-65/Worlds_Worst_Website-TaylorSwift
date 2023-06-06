@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
+
     <main id="container">
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        
         <article class="mainBox">
             <section class="NashvilleInfo">
                 <h1></h1>
@@ -17,16 +22,13 @@
                 <section class="buttonToHome">
                     <h3></h3>
                     <button type="button" id="homeButton" onClick="window.location.reload();" >Go Home!</button>
+                    <button id="evilButton">Leave review</button>
                 </section>
                 <section class="events">
-                    <h3>Events</h3>
+                    <h1 class="text_shadows">Events</h1>
                     <div id="eventItems"></div>
                 </section>
             </section>
-
-
-
-
 
             <aside class="weather">
                 <h3>Weather not for Nashville</h3>
@@ -34,14 +36,16 @@
             </aside>
 
         </article>
+        <h1 id="welcome" class="text_shadows">WELCOME</h1>
+    </div>
 
+            
 
-
-        <footer>
-            <h1>WELCOME</h1>
-        </footer>
     </main> 
-    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js">
+       
+    </script>
+
 </body>
 </html>
 
