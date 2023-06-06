@@ -9,16 +9,11 @@ input,
 select,
 textarea {
 	color: #404040;    
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: #00ff33;
+	font-family: "Comfortaa", Arial, sans-serif;
+    background-color: #00ff33;
 	font-size: 19px;
 	line-height: 1.5;
 }
-
-#exposedLink {
-  background-color: #00ff33;
-}
-
 #container {
     background: var(--pageBackgroundColor);
     background-size: 400% 400%;
@@ -43,7 +38,7 @@ ul {
 
 }
 #welcome {
-    padding-top: 1rem;
+    padding-top: 10rem;
     z-index: 4;
 }
 #homeButton {
