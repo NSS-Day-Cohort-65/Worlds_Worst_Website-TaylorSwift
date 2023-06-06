@@ -24,7 +24,7 @@ const database = [
         location: "Downtown Nashville"
     }
 ]
-
+//getter 
 export const getEventsDatabase = () => {
     return database.map(event => ({...event}))
 }
