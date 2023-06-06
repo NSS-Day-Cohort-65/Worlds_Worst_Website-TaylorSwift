@@ -10,7 +10,7 @@ select,
 textarea {
 	color: #404040;    
 	font-family: "Comfortaa", Arial, sans-serif;
-    background-color: #00ff33;
+  background-color: #00ff33;
 	font-size: 19px;
 	line-height: 1.5;
 }
@@ -22,6 +22,10 @@ textarea {
 p {
     color:rgb(227, 72, 209);
 
+}
+
+#gifs {
+        
 }
 
 h1,h2,h3,h4,h5,h6 {
