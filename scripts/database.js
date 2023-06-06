@@ -28,7 +28,7 @@ const database = [
         link: "https://www.tennesseetitans.com/tickets/"
     }
 ]
-
+//getter 
 export const getEventsDatabase = () => {
     return database.map(event => ({...event}))
 }
