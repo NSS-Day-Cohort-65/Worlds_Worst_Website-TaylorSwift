@@ -6,26 +6,26 @@
 body,
 button,
 input,
-select,
-textarea {
+select {
 	color: #404040;    
 	font-family: "Comfortaa", Arial, sans-serif;
-  background-color: #00ff33;
+  background-color: #a6ff00;
 	font-size: 19px;
 	line-height: 1.5;
 }
 #container {
     background: var(--pageBackgroundColor);
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 4s ease infinite;
 }
 p {
     color:rgb(227, 72, 209);
-
-}
-
-#gifs {
-        
+    background-color: #9d00ff;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 3px solid #00ff33;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -41,11 +41,21 @@ ul {
     color:#005eff;
 
 }
-#welcome {
-    padding-top: 10rem;
-    z-index: 4;
+.input{
+
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);;
+  border-radius: 10px;
+  background-color: transparent;
 }
-#homeButton {
+.field {
+   text-align: center;
+    width:200px;
+    padding:20px;
+    background-color: transparent;
+    width: 50%;
+}
+#homeButton,
+#submitRequest {
     margin: 1rem 0 2rem 2rem;
     padding: 1rem;
     border-radius: 8px;
@@ -69,6 +79,7 @@ ul {
 aside {
 
     margin: 20px;
+    margin-bottom: 50%;
     padding: 20px;
     flex: left;
     border: dotted;
@@ -82,7 +93,6 @@ aside {
 }
 
 
-  
 .pyro > .before, .pyro > .after {
     position: absolute;
     width: 20px;
