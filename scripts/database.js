@@ -26,6 +26,27 @@ const database = [
         date: "July 4, 2023",
         location: "Downtown Nashville",
         link: "https://cmafest.com/transportation/"
+    },
+    {
+        id: 5,
+        name: "CMA Fest",
+        date: "July 5, 2023",
+        location: "Downtown Nashville",
+        link: "https://cmafest.com/transportation/"
+    },
+    {
+        id: 6,
+        name: "Shania Twain",
+        date: "June 7, 2023",
+        location: "GEODIS Park",
+        link: "https://www.trybooking.com/events/992291/sessions"
+    },
+    {
+        id: 7,
+        name: "Weekend Hockey",
+        date: "July 10, 2023",
+        location: "Centennial Sportsplex",
+        link: "https://hockey.travelsports.com/tournaments/weekend-hockey-nashville"
     }
 ]
 //getter 
